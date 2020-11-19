@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency("graphql", "~> 1.7", "< 1.10.6")
   s.add_runtime_dependency("graphql-batch", "~> 0.4.3")
-  s.add_runtime_dependency("graphql-preload")
+  # s.add_runtime_dependency("graphql-preload")
 
   s.add_development_dependency("codeclimate-test-reporter", "~> 1.0.0")
   s.add_development_dependency("rspec-rails", "~> 3.7")
